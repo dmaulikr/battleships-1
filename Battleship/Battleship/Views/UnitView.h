@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UnitView : UIView
+@class UnitView;
+
+@protocol UnitViewDelegate <NSObject>
+
+- (void)longPressedUnitView:(UnitView*)unitView;
+- (void)tappedUnitView:(UnitView*)unitView;
+
+@end
+
+@interface UnitView : UIButton
+
+@property (nonatomic) id <UnitViewDelegate> delegate;
+
++ (UnitView*)viewWithFrame:(CGRect)frame delegate:(id<UnitViewDelegate>)delegate;
 
 @end

@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B3633DA1A067B8B00FE4884 /* ArenaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3633D91A067B8B00FE4884 /* ArenaView.m */; };
 		4B5BD18A1A042045001E544B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BD1891A042045001E544B /* main.m */; };
 		4B5BD18D1A042045001E544B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BD18C1A042045001E544B /* AppDelegate.m */; };
 		4B5BD1981A042045001E544B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5BD1961A042045001E544B /* Main.storyboard */; };
 		4B5BD19A1A042045001E544B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5BD1991A042045001E544B /* Images.xcassets */; };
 		4B5BD19D1A042045001E544B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B5BD19B1A042045001E544B /* LaunchScreen.xib */; };
 		4B5BD1A91A042045001E544B /* BattleshipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BD1A81A042045001E544B /* BattleshipTests.m */; };
-		4B5BD1B51A0591BD001E544B /* GameFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BD1B41A0591BD001E544B /* GameFieldView.m */; };
+		4B5BD1B51A0591BD001E544B /* FieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BD1B41A0591BD001E544B /* FieldView.m */; };
 		4B5BD1B81A0591D2001E544B /* UnitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BD1B71A0591D2001E544B /* UnitView.m */; };
 		4B5BD1BF1A0592F7001E544B /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BD1BE1A0592F7001E544B /* Player.m */; };
 		4B5BD1C31A0594A9001E544B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BD1C21A0594A9001E544B /* GameViewController.m */; };
@@ -33,6 +34,8 @@
 /* Begin PBXFileReference section */
 		0171BE4797DA0477124653D6 /* libPods-Battleship.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Battleship.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F1D607D7BC5B84D1924025 /* Pods-Battleship.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Battleship.release.xcconfig"; path = "Pods/Target Support Files/Pods-Battleship/Pods-Battleship.release.xcconfig"; sourceTree = "<group>"; };
+		4B3633D81A067B8B00FE4884 /* ArenaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArenaView.h; sourceTree = "<group>"; };
+		4B3633D91A067B8B00FE4884 /* ArenaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArenaView.m; sourceTree = "<group>"; };
 		4B5BD1841A042045001E544B /* Battleship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Battleship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5BD1881A042045001E544B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B5BD1891A042045001E544B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,8 +47,8 @@
 		4B5BD1A21A042045001E544B /* BattleshipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleshipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5BD1A71A042045001E544B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B5BD1A81A042045001E544B /* BattleshipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattleshipTests.m; sourceTree = "<group>"; };
-		4B5BD1B31A0591BD001E544B /* GameFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameFieldView.h; sourceTree = "<group>"; };
-		4B5BD1B41A0591BD001E544B /* GameFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameFieldView.m; sourceTree = "<group>"; };
+		4B5BD1B31A0591BD001E544B /* FieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldView.h; sourceTree = "<group>"; };
+		4B5BD1B41A0591BD001E544B /* FieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldView.m; sourceTree = "<group>"; };
 		4B5BD1B61A0591D2001E544B /* UnitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitView.h; sourceTree = "<group>"; };
 		4B5BD1B71A0591D2001E544B /* UnitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitView.m; sourceTree = "<group>"; };
 		4B5BD1BD1A0592F7001E544B /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
@@ -139,10 +142,12 @@
 		4B5BD1B21A059193001E544B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4B5BD1B31A0591BD001E544B /* GameFieldView.h */,
-				4B5BD1B41A0591BD001E544B /* GameFieldView.m */,
+				4B5BD1B31A0591BD001E544B /* FieldView.h */,
+				4B5BD1B41A0591BD001E544B /* FieldView.m */,
 				4B5BD1B61A0591D2001E544B /* UnitView.h */,
 				4B5BD1B71A0591D2001E544B /* UnitView.m */,
+				4B3633D81A067B8B00FE4884 /* ArenaView.h */,
+				4B3633D91A067B8B00FE4884 /* ArenaView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -321,8 +326,9 @@
 				4B5BD1C31A0594A9001E544B /* GameViewController.m in Sources */,
 				4B5BD18D1A042045001E544B /* AppDelegate.m in Sources */,
 				4B5BD18A1A042045001E544B /* main.m in Sources */,
+				4B3633DA1A067B8B00FE4884 /* ArenaView.m in Sources */,
 				4B5BD1BF1A0592F7001E544B /* Player.m in Sources */,
-				4B5BD1B51A0591BD001E544B /* GameFieldView.m in Sources */,
+				4B5BD1B51A0591BD001E544B /* FieldView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
