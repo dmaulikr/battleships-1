@@ -1,10 +1,32 @@
 PODS:
+  - BPForms (2.0.2):
+    - BPForms/FloatLabel
+  - BPForms/Core (2.0.2):
+    - Masonry
+  - BPForms/FloatLabel (2.0.2):
+    - BPForms/Core
+    - JVFloatLabeledTextField
+  - JVFloatLabeledTextField (0.0.9)
+  - Masonry (0.5.3)
   - pop (1.0.7)
+  - Shimmer (1.0.1)
+  - SIAlertView (1.3)
+  - SVProgressHUD (HEAD based on 1.0)
 
 DEPENDENCIES:
+  - BPForms
   - pop (~> 1.0)
+  - Shimmer (~> 1.0.1)
+  - SIAlertView
+  - SVProgressHUD (HEAD)
 
 SPEC CHECKSUMS:
+  BPForms: 7feac47890b9033c42008c7383bef013d410b60d
+  JVFloatLabeledTextField: b6c7d824d231b3c01d14692feada878808480af8
+  Masonry: 35368c2ca9577ca87722c12fc52c4bad9b1c1516
   pop: 2f14a1ea61339767af9e66741b418c831b3844df
+  Shimmer: 35aa2a57b8fbc17f9e16706021665966fd93dbd1
+  SIAlertView: d00609a1faa9d82f17b9f0b4eede64e84a577b10
+  SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
 
 COCOAPODS: 0.34.4
